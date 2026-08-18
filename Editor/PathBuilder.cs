@@ -110,14 +110,9 @@ namespace HareStudio.HierarchyPath
 			var isAbove = false;
 			for (var c = t; c && !isAbove; c = c.parent) isAbove = c == root;
 
-			if (!isAbove)
-			{
-				problem = BasisNotAbove(root.name);
-				return null;
-			}
 
 			basis = MergeAnimatorBasis(root.name);
-			return JoinNames(t, root);
+			return JoinNames(t, isAbove ? root : merge.transform);
 		}
 
 		private static Transform GetRelativePathRoot(Component merge, Transform t)

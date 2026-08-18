@@ -91,11 +91,6 @@ namespace HareStudio.HierarchyPath
 			"\"" + name + "\" のパスモードが絶対パスです。",
 			"\"" + name + "\"의 경로 모드(Path Mode)가 절대 경로입니다.");
 
-		internal static string BasisNotAbove(string name) => GetLoc(
-			"Base \"" + name + "\" is not an ancestor of the selection.",
-			"基準 \"" + name + "\" の下に選択オブジェクトがありません。",
-			"기준 \"" + name + "\" 아래에 선택 항목이 없습니다.");
-
 		internal static string DuplicateName(string name) => GetLoc(
 			"\"" + name + "\" shares its name with a sibling. Unity paths cannot tell them apart, so this path may resolve to the wrong object. Rename one of them.",
 			"同じ親の下に \"" + name + "\" という名前のオブジェクトが複数あります。Unity のパスでは区別できず、別のオブジェクトを指してしまう可能性があるため、いずれかをリネームしてください。",

@@ -34,11 +34,7 @@ Unity gives you **Copy Path** in the Project window but nothing like it in the H
 
 ### 설치
 
-VCC / ALCOM에 추가:
-
-```
-
-```
+[**VCC / ALCOM에 추가**](https://hare-14.github.io/vpm-repos/)
 
 ### 사용
 
@@ -100,11 +96,7 @@ VRChat SDK와 모듈러 아바타는 **둘 다 선택 사항**입니다.
 
 ### Install
 
-Add to VCC / ALCOM:
-
-```
-
-```
+[**Add to VCC / ALCOM**](https://hare-14.github.io/vpm-repos/)
 
 ### Usage
 

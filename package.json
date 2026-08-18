@@ -1,7 +1,7 @@
 {
   "name": "io.github.hare-14.hierarchy-path",
   "displayName": "Hierarchy Path Tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Copy hierarchy paths from the Hierarchy window. Absolute, relative and scene paths.",
   "unity": "2022.3",
   "license": "MIT",
